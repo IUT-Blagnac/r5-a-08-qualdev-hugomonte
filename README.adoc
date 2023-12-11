@@ -53,14 +53,55 @@ image::tp1_result.png[width=80%]
 
 === Bonus
 
-.Détection des clics, pas "propre" mais le fonctionnel y est, et peut être incrémenté proprement.
+.Détection des ouvertures, fonctionne mais améliorable selon le besoin
 ```js
 window.count = 0
 
-document.querySelectorAll("details summary").forEach(el => el.addEventListener("click", (e) => {
-    window.count++;
+document.querySelectorAll("details").forEach(el => el.addEventListener("toggle", () => {
+     if (el.hasAttribute("open"))
+         window.count++
+
     console.log(window.count)
 }));
 ```
 
-== TP2...
+== TP2
+
+
+.Code
+```java
+package dojo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Order {
+    private String owner;
+    private String target;
+    private List<String> cocktails = new ArrayList<>();
+
+
+    public void declareOwner(String name) {
+        this.owner = name;
+    }
+
+    public void declareTarget(String name) {
+        this.target = name;
+    }
+
+    public List<String> getCocktails() {
+        return this.cocktails;
+    }
+
+    public String getOwner() {
+        return this.owner;
+    }
+
+    public String getTarget() {
+        return this.target;
+    }
+}
+```
+
+.Résultat
+image::tp2_result.png[width=80%]
