@@ -237,3 +237,5 @@ module.exports = { Person }
 
 .Résultat
 image::tp3_result.png[width=80%]
+
+L'objectif était de réaliser une représentation de la vie (simple) au travers de tests, permettant de rendre les étapes d'une journée sous forme d'algorithme.
