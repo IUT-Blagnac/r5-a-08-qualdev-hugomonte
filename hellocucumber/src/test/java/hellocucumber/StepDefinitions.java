@@ -26,11 +26,6 @@ public class StepDefinitions {
         this.today = day;
     }
 
-    @Given("today is Sunday")
-    public void today_is_sunday() {
-        this.today = "Sunday";
-    }
-
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_friday_yet() {
         this.actualAnswer = IsItFriday.isItFriday(this.today);
