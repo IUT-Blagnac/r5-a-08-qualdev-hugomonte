@@ -243,11 +243,6 @@ L'objectif était de réaliser une représentation de la vie (simple) au travers
 
 == TP4
 
-.Code
-```java
-
-```
-
 .Résultat
 image::tp4_result.png[width=80%]
 
