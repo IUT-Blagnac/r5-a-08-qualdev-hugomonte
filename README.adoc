@@ -239,3 +239,17 @@ module.exports = { Person }
 image::tp3_result.png[width=80%]
 
 L'objectif était de réaliser une représentation de la vie (simple) au travers de tests, permettant de rendre les étapes d'une journée sous forme d'algorithme.
+
+
+== TP4
+
+.Code
+```java
+
+```
+
+.Résultat
+image::tp4_result.png[width=80%]
+
+.Résultat
+image::tp4_result_1.png[width=80%]
